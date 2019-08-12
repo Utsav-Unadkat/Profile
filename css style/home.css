@@ -1,0 +1,171 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Comic Sans Ms;
+}
+
+body{
+    background: url(../image/bk.png);
+    background-size: auto;
+}
+
+#navbar{
+    background: linear-gradient(to right,
+    rgba(249,107,142,1),
+    rgba(218,103,230,1),
+    rgba(130,125,253,1));
+    color: #fff;
+    padding-bottom: 10px;
+    height: 40px;
+}
+
+#navbar ul{
+    float: right;
+    width: 80%;
+    padding-top: 10px;
+    list-style-type: none;
+}
+
+#navbar li{
+    display: inline;
+}
+#navbar a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 4px;
+    width: 20%;
+}
+
+
+.container{
+    width: 60%;
+    height: 200px;
+    border: 1px ;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+
+#img{
+    float: left;
+    width: 30%;
+    color: #fff;
+    height: 100%; 
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#img img{
+    width: 180px;
+}
+
+.content{
+    float: right;
+    border: 1px solid black;
+    width: 70%;
+    height: 200px;
+    box-sizing: border-box;
+    background: white;
+    box-shadow: 0px 1px 10px 1px #000;
+
+}
+
+.content h3{
+    padding-left:  10px;
+    padding-top:  10px;
+
+}
+
+.content p{
+    padding: 10px;
+}
+
+#main-footer{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding:20px;
+    margin-top: 40px;
+}
+
+#main-footer p{
+    padding: 8px;
+}
+
+#main-footer li{
+    display: inline;
+    padding-left: 10px;
+}
+
+#main-footer .fab{
+    font-size: 30px;
+}
+
+
+
+#main-footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+.line{
+    width: 80%;
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    padding: 5px;
+    font-size: 16px;;
+}
+
+.html{
+    flex-basis: 33.3%;
+    text-align: center;
+
+}
+
+.css{
+    flex-basis: 33.3%;    
+    text-align: center;
+
+}
+
+.flexbox{
+    flex-basis: 33.4%;    
+    text-align: center;
+}
+
+.flex-container .fab{
+    text-align: center;
+
+}
+
+.box{
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto;
+    background: white;
+    box-shadow: 0px 1px 10px 1px #000;
+
+}
+
+
+
+
